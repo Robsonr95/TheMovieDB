@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:visibility="visible">
+
+    <Button
+        android:id="@+id/movies"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Filmy"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="332dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/download" />
+
+    <Button
+        android:id="@+id/tvShows"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Seriale"
+        android:textAlignment="center" />
+</LinearLayout>

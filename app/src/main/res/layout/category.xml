@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/category"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Wyszukaj..."
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/search"
+        style="@android:style/Widget.Button.Toggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Szukaj" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="345dp"
+        app:srcCompat="@drawable/download" />
+
+    <Button
+        android:id="@+id/best"
+        style="@android:style/Widget.Button.Toggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Najwyżej oceniane" />
+
+    <Button
+        android:id="@+id/popular"
+        style="@android:style/Widget.Button.Toggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Popularne" />
+
+</LinearLayout>
